@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Saya</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Tentang Saya</a></li>
+        <li><a href="#projects">Proyek</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="section home">
+    <div class="intro">
+      <h1>Halo, Saya Jane Doe</h1>
+      <p>Seorang Web Developer & UI/UX Designer</p>
+      <img src="images/hero-image.png" alt="Ilustrasi Web Developer">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about">
+    <h2>Tentang Saya</h2>
+    <div class="about-content">
+      <img src="images/profile.jpg" alt="Foto Profil">
+      <div>
+        <p>Saya adalah seorang pengembang web dengan pengalaman lebih dari 3 tahun dalam membangun website modern dan interaktif. Keahlian saya mencakup HTML, CSS, JavaScript, serta tools desain seperti Figma dan Adobe XD.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section projects">
+    <h2>Proyek</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="images/project1.png" alt="Proyek 1">
+        <h3>Website Toko Online</h3>
+        <p>Platform e-commerce lengkap dengan fitur keranjang belanja.</p>
+        <a href="https://github.com/janedoe/toko-online" target="_blank">Lihat Proyek</a>
+      </div>
+      <div class="project-card">
+        <img src="images/project2.png" alt="Proyek 2">
+        <h3>Portofolio Desainer</h3>
+        <p>Website portofolio interaktif untuk seorang desainer grafis.</p>
+        <a href="https://github.com/janedoe/portofolio-desainer" target="_blank">Lihat Proyek</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <h2>Kontak</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Nama" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <textarea id="message" placeholder="Pesan" required></textarea>
+      <button type="submit">Kirim</button>
+      <p id="formMessage" class="form-message"></p>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Jane Doe. Semua Hak Dilindungi.</p>
+    <div class="socials">
+      <a href="https://linkedin.com/in/janedoe" target="_blank">LinkedIn</a>
+      <a href="https://github.com/janedoe" target="_blank">GitHub</a>
+      <a href="https://twitter.com/janedoe" target="_blank">Twitter</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
